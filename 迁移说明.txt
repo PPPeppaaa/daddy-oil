@@ -1,0 +1,17 @@
+泸州油价助手完整网站包（2026-10-13）
+
+此包包含最新全部网站代码、字体和识别组件，不需要叠加以前的更新包。
+
+1. 登录新的GitHub账号，创建名为 luzhou-oil-price-helper 的Public仓库，可以勾选添加README。
+2. 解压本包。仓库首页选择 Add file > Upload files，上传解压文件夹里面的内容。
+   index.html 必须位于仓库根目录，不能多套一层 github-complete-20261013 文件夹。
+   fonts、vendor 两个文件夹必须保留名称和内部结构。
+   不要上传ZIP压缩包代替解压内容。
+3. 如果一次上传较慢，分三次：根目录文件、fonts文件夹、vendor文件夹，每次上传完提交Commit changes。
+   上传文件夹可从电脑拖入GitHub上传区域。
+4. 仓库Settings > Pages > Build and deployment：Source选Deploy from a branch，Branch选main，目录选/(root)，点击Save。
+5. 等Actions里的Pages部署完成，再从Settings > Pages打开网站链接。
+
+功能包含：三个独立设置区、已有站调价、增加新站、同价合并、突出显示、自定义底部说明、模糊图重试与人工核对、大片空白压缩。
+默认缺失站不会新增；底部默认仅将优惠改为4角5，保留原图挂牌价门槛。
+旧账号网站不受影响。新网址生效后，将新链接发给使用者。
